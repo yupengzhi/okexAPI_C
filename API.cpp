@@ -10,8 +10,8 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    string com_apiKey		= "71af0d2c-5c36-4e5d-b3a7-50d8e39178e2";//请到www.okex.com申请。
-    string com_secretKey	= "969A7A1C33453B9FE78DF4C271536E04";//请到www.okex.com申请。
+    string com_apiKey		= "";//请到www.okex.com申请。
+    string com_secretKey	= "";//请到www.okex.com申请。
     OkexApiCom comapi(com_apiKey,com_secretKey);
     string symbolcom = "eos_usd";
     //cout << comapi.GetTicker(symbolcom)<<endl;
